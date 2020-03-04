@@ -1,3 +1,18 @@
+**Database**
+# Add postgres (DATABASE)
+    > CMS > settings.py 
+        ex:
+                DATABASES = {
+                     'default': {
+                       'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                         'NAME': '',
+                         'USER': '',
+                         'PASSWORD': '',
+                         'HOST': '',
+                         'PORT': '',
+                     }
+                }
+
 **Routing**
 # Setup routing
     > CMS > CMS > urls.py
